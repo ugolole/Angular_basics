@@ -1,4 +1,4 @@
-# MyApp
+# Angular basics
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
 
@@ -25,3 +25,14 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+## Containerising this application.
+Using the command **`docker-compose up --build -d`** and image for the application will be created and the application will be hosted in docker as a constainer.
+
+Ensure to follow this `` installation guid to have the network setup and running before you 
+build this application in docker. The application is configured to run on very specific network 
+which needs to be created building attempting to host this application on Docker.
+
+The application can be accessed on the following address `http://localhost:4020/` for the alpha
+server
