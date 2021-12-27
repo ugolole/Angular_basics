@@ -1,0 +1,28 @@
+.header{
+    color: white;
+    width: 200px;
+
+    position: relative;
+    left: 0;
+}
+
+.highlight{
+    border: 1px solid black;
+}
+
+.main{
+    background-color: white;
+    width: auto;
+    height: auto;
+}
+
+.nav{
+    background-color: #284fd1
+}
+
+.checkout-button{
+    position: relative;
+    right: 0;
+    width: 100;
+    height: 30;
+}
