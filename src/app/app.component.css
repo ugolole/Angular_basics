@@ -1,0 +1,9 @@
+/*Creating properties for all the elements*/
+* {
+    font-family: 'Roboto', Arial, sans-serif;
+    color: #616161;
+    box-sizing: boarder-box;
+    -webkit-font-smoothing: antialiased; /*Controls property of anit aliasing when fonts are rendered.*/
+    -moz-osx-font-smoothing: grayscale; /*Similer property for mozila firefox*/
+}
+
