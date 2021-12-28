@@ -1,0 +1,55 @@
+/*Creating styles for all elements*/
+* {
+    font-family: 'Roboto', Arial, sans-serif;
+    color: #616161;
+    box-sizing: boarder-box;
+    -webkit-font-smoothing: antialiased; /*Controls property of anit aliasing when fonts are rendered.*/
+    -moz-osx-font-smoothing: grayscale; /*Similer property for mozila firefox*/
+}
+
+body{
+    margin: 0;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+router-outlet + *{
+    padding: 0 16px;
+}
+
+/*Create styles for texts*/
+h1{
+    font-size: 32px;
+}
+
+h1, h2{
+    font-weight: lighter;
+}
+
+p{
+    font-size: 14px;
+}
+
+/*Create styles for hyper links*/
+a{
+    cursor:pointer;
+    color: #1976d2;
+    text-decoration: none;
+}
+
+a:hover{
+    opacity: 0.8;
+}
+
+/*Creating styles for the input elements*/
+input{
+    font-size: 14px;
+    border-radius:2px;
+    padding:8px;
+    margin-bottom:16px;
+    border:1px solid #BDBDBD;
+}
