@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
+import { products } from '../products';
+
 @Component({
   selector: 'app-product-list',
   templateUrl: './product-list.component.html',
@@ -10,6 +12,8 @@ export class ProductListComponent implements OnInit {
 
   // Initialising constructors in typeScript.
   constructor() { }
+
+  products = products;
 
   // I am not sure what this does.
   ngOnInit(): void {
