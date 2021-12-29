@@ -10,11 +10,6 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    ProductListComponent,
-    TopBarComponent
-  ],
 
   imports: [
     BrowserModule,
@@ -23,6 +18,12 @@ import { RouterModule } from '@angular/router';
     RouterModule.forRoot([
       {path: '', component: ProductListComponent}
     ])
+  ],
+
+  declarations: [
+    AppComponent,
+    ProductListComponent,
+    TopBarComponent
   ],
 
   providers: [],
