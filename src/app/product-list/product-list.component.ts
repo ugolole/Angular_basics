@@ -23,5 +23,4 @@ export class ProductListComponent implements OnInit {
   share(){
     window.alert("This product has been shared!");
   }
-
 }
