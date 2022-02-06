@@ -8,6 +8,7 @@ import { TopBarComponent } from './top-bar/top-bar.component';
 
 import { ReactiveFormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
+import { ProductAlertsComponent } from './product-alerts/product-alerts.component';
 
 @NgModule({
 
@@ -23,7 +24,8 @@ import { RouterModule } from '@angular/router';
   declarations: [
     AppComponent,
     ProductListComponent,
-    TopBarComponent
+    TopBarComponent,
+    ProductAlertsComponent
   ],
 
   providers: [],
