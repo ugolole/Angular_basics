@@ -2,7 +2,7 @@ export interface Product{
     id: number;
     name: string;
     price: number;
-    description: string;  
+    description: string;
 }
 
 export const products = [
@@ -23,5 +23,11 @@ export const products = [
       name: 'Phone Standard',
       price: 299,
       description: ''
+    },
+    {
+      id: 4,
+      name : 'Computer standard',
+      price : 1499,
+      description: 'A very good computer that I think you should have'
     }
   ];
