@@ -18,7 +18,8 @@ import { ProductDetailsComponent } from './product-details/product-details.compo
     AppRoutingModule,
     ReactiveFormsModule,
     RouterModule.forRoot([
-      {path: '', component: ProductListComponent}
+      {path: '', component: ProductListComponent},
+      {path: 'products/:productId', component:ProductDetailsComponent}
     ])
   ],
 
@@ -31,7 +32,7 @@ import { ProductDetailsComponent } from './product-details/product-details.compo
   ],
 
   providers: [],
-  
+
   bootstrap: [
     AppComponent
   ]
