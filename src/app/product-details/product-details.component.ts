@@ -24,7 +24,7 @@ export class ProductDetailsComponent implements OnInit {
     const productIdFromRoute = Number(routeParams.get('productId'));
 
     // Find the product that corresponds to this id
-    this.product = products.find(product => product.id = productIdFromRoute);
+    this.product = products.find(product => product.id === productIdFromRoute);
   }
 
   // The add method which will add the current product to the cart
